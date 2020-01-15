@@ -169,4 +169,4 @@ Many web applications are not taking enough steps to detect data breaches. The a
 - [Make a Django app insecure? It’s not easy and that’s a good thing!](https://www.contextis.com/en/blog/make-a-django-app-insecure-its-not-easy-and-thats-a-good-thing).
 
 
-[12 Open Source Web Security Scanner to Find Vulnerabilities](https://geekflare.com/open-source-web-security-scanner/)
+- [12 Open Source Web Security Scanner to Find Vulnerabilities](https://geekflare.com/open-source-web-security-scanner/)
