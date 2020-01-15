@@ -97,6 +97,8 @@ DEBUG = True # set to False
 
 ```
 
+Security checklist before deployment:
+
 ```
 (django-todo-react) dev@jino:~/Downloads/django-todo-react/backend$ python3 manage.py check --deploy
 System check identified some issues:
