@@ -1,4 +1,4 @@
-# What is OWASP?
+# OWASP
 
 The Open Web Application Security Project, or [OWASP](https://wiki.owasp.org/index.php/Main_Page), is an international non-profit organization dedicated to [web application security](https://www.cloudflare.com/learning/security/what-is-web-application-security/). One of OWASP’s core principles is that all of their materials be freely available and easily accessible on their website, making it possible for anyone to improve their own web application security. The materials they offer include documentation, tools, videos, and forums. Perhaps their best-known project is the OWASP Top 10.
 
