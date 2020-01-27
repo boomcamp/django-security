@@ -35,6 +35,8 @@ Some strategies to mitigate authentication vulnerabilities are requiring 2-facto
 
 - [Django two factor auth](https://django-two-factor-auth.readthedocs.io/en/stable/installation.html)
 
+- [Django OTP](https://pypi.org/project/django-otp/)
+
 - [Django rate limit](https://django-ratelimit.readthedocs.io/en/stable/)
 
 
@@ -190,11 +192,34 @@ Many web applications are not taking enough steps to detect data breaches. The a
 
 
 # Other useful resources
+> Here are some other resources and tools that you should aware of
+
+
+### Configuring multiple settings
+
+- [Django - dev,staging,prod](https://simpleisbetterthancomplex.com/tips/2017/07/03/django-tip-20-working-with-multiple-settings-modules.html)
+
+
+### System Adminstrator tools
+
+- [Observatory mozilla](https://observatory.mozilla.org/)
+
+- [Security Headers](https://securityheaders.com/)
+
+- [SkipFish](https://tools.kali.org/web-applications/skipfish)
+
+- [Fail2ban](https://www.fail2ban.org/wiki/index.php/Main_Page)
+
+- [Open source web security scanner](https://geekflare.com/open-source-web-security-scanner/)
+
+
+
+### Useful slides/resources:
+
+- [Two scoops of Django - Security Best Practices](https://www.slideshare.net/spinlai/django-workshop-securitybestpractices)
+
+- [Make a Django app insecure? It’s not easy and that’s a good thing!](https://www.contextis.com/en/blog/make-a-django-app-insecure-its-not-easy-and-thats-a-good-thing)
 
 - [Django web security checklist before deployment | Secure your Django App](https://dev.to/coderasha/django-web-security-checklist-before-deployment-secure-your-django-app-4jb8)
 
-
-- [Make a Django app insecure? It’s not easy and that’s a good thing!](https://www.contextis.com/en/blog/make-a-django-app-insecure-its-not-easy-and-thats-a-good-thing).
-
-
-- [12 Open Source Web Security Scanner to Find Vulnerabilities](https://geekflare.com/open-source-web-security-scanner/)
+- [Tips and Tools for Securing Django](https://www.laurencegellert.com/2019/01/tips-and-tools-for-securing-django/)
