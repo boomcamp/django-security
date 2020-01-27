@@ -41,7 +41,7 @@ Some strategies to mitigate authentication vulnerabilities are requiring 2-facto
 
 ### 3. Sensitive Data Exposure
 
-If web applications don’t protect sensitive data such as financial information and passwords, attackers can gain access to that data and sellor utilize it for nefarious purposes. One popular method for stealing sensitive information is using a [man-in-the-middle attack](https://www.cloudflare.com/learning/security/threats/man-in-the-middle-attack/).
+> If web applications don’t protect sensitive data such as financial information and passwords, attackers can gain access to that data and sellor utilize it for nefarious purposes. One popular method for stealing sensitive information is using a [man-in-the-middle attack](https://www.cloudflare.com/learning/security/threats/man-in-the-middle-attack/).
 
 Data exposure risk can be minimized by encrypting all sensitive data as well as disabling the caching* of any sensitive information. Additionally, web application developers should take care to ensure that they are not unnecessarily storing any sensitive data.
 
@@ -54,7 +54,7 @@ Data exposure risk can be minimized by encrypting all sensitive data as well as 
 
 - [Cryptographic signing](https://docs.djangoproject.com/en/3.0/topics/signing/).
 
-
+[Read more >>](https://hdivsecurity.com/owasp-sensitive-data-exposure)
 
 ### 4. XML External Entities (XEE)
 
