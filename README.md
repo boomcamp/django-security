@@ -22,6 +22,7 @@ Injection attacks can be prevented by validating and/or sanitizing user-submitte
 - [Django ORM](https://docs.djangoproject.com/en/dev/topics/db/)
 
 
+[[Read more]](https://hdivsecurity.com/owasp-sql-injection)
 
 
 
@@ -128,7 +129,7 @@ System check identified 7 issues (0 silenced).
 ```
 
 
-[[More reading]](https://hdivsecurity.com/owasp-security-misconfiguration)
+[[Read more]](https://hdivsecurity.com/owasp-security-misconfiguration)
 
 
 
@@ -159,6 +160,8 @@ An insecure deserialization exploit is the result of deserializing data from unt
 - [Django Security - Different Serialization Formats And Which Ones (Not) to Use](https://www.youtube.com/watch?v=8KHir8IPSRY).
 
 
+[[Read more]](https://hdivsecurity.com/owasp-insecure-deserialization)
+
 
 
 ### 9. Using Components With Known Vulnerabilities
@@ -167,7 +170,8 @@ Many modern web developers use components such as libraries and frameworks in th
 
 Component developers often offer security patches and updates to plug up known vulnerabilities, but web application developers don’t always have the patched or most-recent versions of components running on their applications. To minimize the risk of running components with known vulnerabilities, **developers should remove unused components from their projects, as well as ensuring that they are receiving components from a trusted source and ensuring they are up to date**.
 
-
+example component: 
+[A way to create simple reusable template components in Django](https://github.com/EmilStenstrom/django-components) 
 
 
 
