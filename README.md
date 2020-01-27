@@ -36,6 +36,7 @@ Some strategies to mitigate authentication vulnerabilities are requiring 2-facto
 - [Django rate limit](https://django-ratelimit.readthedocs.io/en/stable/)
 
 
+[Read more](https://hdivsecurity.com/owasp-broken-authentication-and-session-management)
 
 
 ### 3. Sensitive Data Exposure
