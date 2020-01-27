@@ -64,9 +64,9 @@ The best ways to prevent XEE attacks are to have web applications accept a less 
 
 > XML or Extensible Markup Language is a markup language intended to be both human-readable and machine-readable. Due to its complexity and security vulnerabilities, it is now being phased out of use in many web applications.
 
-**JavaScript Object Notation (JSON) is a type of simple, human-readable notation often used to transmit data over the internet. Although it was originally created for JavaScript, JSON is language-agnostic and can be interpreted by many **different programming languages.**
+**JavaScript Object Notation (JSON) is a type of simple, human-readable notation often used to transmit data over the internet. Although it was originally created for JavaScript, JSON is language-agnostic and can be interpreted by many different programming languages.**
 
-
+[[Read more]](https://hdivsecurity.com/owasp-xml-external-entities-xxe)
 
 
 ### 5.  Broken Access Control
