@@ -24,6 +24,7 @@ Injection attacks can be prevented by validating and/or sanitizing user-submitte
 
 
 
+
 ### 2. Broken Authentication
 
 Vulnerabilities in authentication (login) systems can give attackers access to user accounts and even the ability to compromise an entire system using an admin account. For example, an attacker can take a list containing thousands of known username/password combinations obtained during a [data breach](https://www.cloudflare.com/learning/security/what-is-a-data-breach/) and use a script to try all those combinations on a login system to see if there are any that work.
@@ -36,7 +37,9 @@ Some strategies to mitigate authentication vulnerabilities are requiring 2-facto
 - [Django rate limit](https://django-ratelimit.readthedocs.io/en/stable/)
 
 
-[Read more >>](https://hdivsecurity.com/owasp-broken-authentication-and-session-management)
+[[Read more]](https://hdivsecurity.com/owasp-broken-authentication-and-session-management)
+
+
 
 
 ### 3. Sensitive Data Exposure
@@ -54,7 +57,10 @@ Data exposure risk can be minimized by encrypting all sensitive data as well as 
 
 - [Cryptographic signing](https://docs.djangoproject.com/en/3.0/topics/signing/).
 
-[Read more >>](https://hdivsecurity.com/owasp-sensitive-data-exposure)
+[[Read more]](https://hdivsecurity.com/owasp-sensitive-data-exposure)
+
+
+
 
 ### 4. XML External Entities (XEE)
 
@@ -69,6 +75,8 @@ The best ways to prevent XEE attacks are to have web applications accept a less 
 [[Read more]](https://hdivsecurity.com/owasp-xml-external-entities-xxe)
 
 
+
+
 ### 5.  Broken Access Control
 
 Access control refers a system that controls access to information or functionality. Broken access controls allow attackers to bypass authorization and perform tasks as though they were privileged users such as administrators. For example a web application could allow a user to change which account they are logged in as simply by changing part of a url, without any other verification.
@@ -81,6 +89,7 @@ Access control refers a system that controls access to information or functional
 - [How to Use JWT Authentication with Django REST Framework](https://simpleisbetterthancomplex.com/tutorial/2018/12/19/how-to-use-jwt-authentication-with-django-rest-framework.html).
 
 - [django-role-permissions’s documentation](https://django-role-permissions.readthedocs.io/en/stable/index.html)
+
 
 
 
@@ -117,6 +126,8 @@ System check identified 7 issues (0 silenced).
 ```
 
 
+
+
 ### 7. Cross-Site Scripting
 
 [Cross-site scripting](https://www.cloudflare.com/learning/security/threats/cross-site-scripting/) vulnerabilities occur when web applications allow users to add custom code into a url path or onto a website that will be seen by other users. This vulnerability can be exploited to run malicious JavaScript code on a victim’s browser. For example, an attacker could send an email to a victim that appears to be from a trusted bank, with a link to that bank’s website. This link could have some malicious JavaScript code tagged onto the end of the url. If the bank’s site is not properly protected against cross-site scripting, then that malicious code will be run in the victim’s web browser when they click on the link.
@@ -127,6 +138,8 @@ Mitigation strategies for cross-site scripting include escaping untrusted HTTP r
 - [Express csurf](https://github.com/expressjs/csurf).
 
 - [Django csrf](https://docs.djangoproject.com/en/3.0/ref/csrf/).
+
+
 
 
 
@@ -142,11 +155,15 @@ An insecure deserialization exploit is the result of deserializing data from unt
 - [Django Security - Different Serialization Formats And Which Ones (Not) to Use](https://www.youtube.com/watch?v=8KHir8IPSRY).
 
 
+
+
 ### 9. Using Components With Known Vulnerabilities
 
 Many modern web developers use components such as libraries and frameworks in their web applications. These components are pieces of software that help developers avoid redundant work and provide needed functionality; common example include front-end frameworks like React and smaller libraries that used to add share icons or a/b testing. Some attackers look for vulnerabilities in these components which they can then use to orchestrate attacks. Some of the more popular components are used on hundreds of thousands of websites; an attacker finding a security hole in one of these components could leave hundreds of thousands of sites vulnerable to exploit.
 
 Component developers often offer security patches and updates to plug up known vulnerabilities, but web application developers don’t always have the patched or most-recent versions of components running on their applications. To minimize the risk of running components with known vulnerabilities, **developers should remove unused components from their projects, as well as ensuring that they are receiving components from a trusted source and ensuring they are up to date**.
+
+
 
 
 
