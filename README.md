@@ -91,6 +91,8 @@ Access control refers a system that controls access to information or functional
 - [django-role-permissions’s documentation](https://django-role-permissions.readthedocs.io/en/stable/index.html)
 
 
+[[Read more]](https://hdivsecurity.com/owasp-broken-access-control)
+
 
 
 ### 6. Security Misconfiguration
@@ -125,6 +127,8 @@ WARNINGS:
 System check identified 7 issues (0 silenced).
 ```
 
+
+[[More reading]](https://hdivsecurity.com/owasp-security-misconfiguration)
 
 
 
